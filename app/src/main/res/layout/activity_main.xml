@@ -55,11 +55,39 @@
     </LinearLayout>
 
     <LinearLayout
+        android:orientation="horizontal"
         android:background="#EC407A"
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="0dp">
-
+        <TextView
+            android:background="#AB47BC"
+            android:layout_weight="1"
+            android:text="A"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:background="#FFEE58"
+            android:layout_weight="1"
+            android:text="B"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:background="#40CA4D"
+            android:layout_weight="1"
+            android:text="C"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:background="#72A6CF"
+            android:layout_weight="1"
+            android:text="D"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
     </LinearLayout>
 
 </LinearLayout>
