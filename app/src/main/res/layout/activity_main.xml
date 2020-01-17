@@ -8,12 +8,49 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-<!--    deprecated : Không còn hỗ trợ-->
-    <TextView
-        android:layout_gravity="right"
-        android:text="View 1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#5DBD62"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#29B6F6"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:background="#AB47BC"
+            android:layout_weight="1"
+            android:text="A"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+        <TextView
+            android:gravity="center"
+            android:background="#9CCC65"
+            android:layout_weight="1"
+            android:text="B"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+        <TextView
+            android:gravity="center"
+            android:background="#D4E157"
+            android:layout_weight="1"
+            android:text="C"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+        <TextView
+            android:gravity="center"
+            android:background="#29B6F6"
+            android:layout_weight="1"
+            android:text="D"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#EC407A"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    </LinearLayout>
 
 </LinearLayout>
