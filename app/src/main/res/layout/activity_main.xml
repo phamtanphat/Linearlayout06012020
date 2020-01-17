@@ -7,6 +7,15 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
+<!--    <TextView-->
+<!--        android:layout_width=""-->
+<!--        android:layout_height=""/>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width=""-->
+<!--        android:layout_height="">-->
+
+<!--    </LinearLayout>-->
 
     <LinearLayout
         android:orientation="vertical"
