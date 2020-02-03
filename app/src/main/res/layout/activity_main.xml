@@ -31,10 +31,42 @@
             android:textColor="#ffff"
             android:textSize="40sp" />
         <LinearLayout
+            android:orientation="vertical"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="7">
-
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="7"
+                android:background="#4A59C2"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="#ffff"
+                android:textSize="40sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#3E3142"
+                    android:gravity="center"
+                    android:text="4"
+                    android:textColor="#ffff"
+                    android:textSize="40sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#BE2863"
+                    android:gravity="center"
+                    android:text="5"
+                    android:textColor="#ffff"
+                    android:textSize="40sp" />
+            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
 
